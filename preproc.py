@@ -1,18 +1,12 @@
 #---------------------------------------------------
-# Name:				Dataset Preprocessing
-# Purpose:		From GPS trajectories to contact list
+# TRAJECTORY DATASETS from CRAWDAD
 #---------------------------------------------------
-#!/usr/bin/env python
-
-#---------------------------------------------------
-# TRAJECTORY DATASETS
-#---------------------------------------------------
-# Taxi Cab Trajectories, Rome, Italy, 2014
+# - http://www.crawdad.org/
+# Taxi Cab Trajectories, Rome, Italy, 2014:
 # - 370 taxi cabs during 30 days between 2/1/14 to 3/2/14
 # - total more than 20 M trajectories (1.6 GB)
 # - Coordinated Universal Time (UTC) +01:00
-# 
-# Taxi Cab Trajectories, San Fransisco, CA, 2008
+# Taxi Cab Trajectories, San Fransisco, CA, 2008:
 # - 536 taxi cabs during 25 days between 5/17/08 to 6/10/08
 # - total more than 10 M trajectories (0.4 GB)
 # - Original Trajectory Format
@@ -22,6 +16,7 @@
 #   - e.g., Unix time 1429000000 = UTC 2015/4/14 08:26:40
 #   - UTC-08:00, Summer Time UTC-07:00 in 3/13 through 11/16
 #---------------------------------------------------
+#!/usr/bin/env python
 
 
 
