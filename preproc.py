@@ -132,5 +132,3 @@ class DatasetPreprocessing:
 			nodes[date] = nodes_date
 
 		return dates, nn, nodes
-
-

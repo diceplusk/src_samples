@@ -95,5 +95,3 @@ def mean_confidence_interval(self, data):
 	h = se * sp.stats.t._ppf((1+confidence)/2., n-1)
 
 	return m, h
-
-

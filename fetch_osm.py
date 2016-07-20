@@ -69,5 +69,3 @@ def get_osm_img(self, minlon, minlat, maxlon, maxlat, scale):
 		img.save("img.png")
 
 		return url
-
-
